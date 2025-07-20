@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DineIn Delights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<div id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-4">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo.png" alt="Logo" class="me-2" style="width: 70px; height: 70px;">
+                <span>
+                    <span style="color: rgb(115, 219, 115); font-weight: 600; font-size: 20px;">DineIn</span>
+                    <span style="color: orange; font-weight: 600; font-size: 25px;">Delights</span>
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#deals">Offers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="welcomeheader mt-5 pt-4">
+            <h1 class="w1 text-warning">Welcome to DineIn Delights</h1>
+            <h3 class="w2 text-danger">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</h3>
+            <div class="d-flex justify-content-center flex-wrap gap-2 mt-3">
+                <button type="button" class="headerbtn btn btn-warning text-dark">Order Now</button>
+                <button type="button" class="headerbtn btn btn-warning text-dark">Reserve a Table</button>
+            </div>
+        </div>
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active" data-bs-interval="1500">
+                <img src="/images/homeimg5.jpg" class="d-block w-100 caroimghome" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="/images/homeimg6.jpg" class="d-block w-100 caroimghome" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="/images/homeimg3.jpg" class="d-block w-100 caroimghome" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="/images/homeimg4.jpg" class="d-block w-100 caroimghome" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="homeabout py-5" style="background-color:rgb(245, 242, 238)">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card">
+                        <img src="/images/friends.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn with Friends</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card">
+                        <img src="/images/luv.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn with Love</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card">
+                        <img src="/images/lover.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn for Every Mood</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/foods.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn for Every Craving</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/celebration.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn for Every Celebration</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/love.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn for Every Memory</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/fam.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn for Every Occasion</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/occasion.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn with your team</i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/bite.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning"><i>DineIn, Where Every Bite Bonds</i></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="aboutus" class="about mt-lg-4 mt-sm-0 py-5">
+    <div class="container">
+        <h1 class="sectitle text-center mb-4">About Us</h1>
+        <p class="text-justify text-secondary fs-5 mb-5">
+            <i>
+                At DineIn Delights, we believe in creating unforgettable dining experiences. Our mission is to bring
+                people together through delicious food, warm hospitality, and a welcoming atmosphere. Whether you're
+                here for a quick bite or a leisurely meal, our team is dedicated to making your visit special.
+            </i>
+        </p>
+
+        <h1 class="sectitle text-center text-danger mb-4"><i>Foods Gallery</i></h1>
+
+        <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <img src="/images/chickbiri.jpg" class="img-fluid rounded shadow" alt="Biryani">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <img src="/images/frenchfries.jpg" class="img-fluid rounded shadow" alt="French Fries">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <img src="/images/combo1.jpg" class="img-fluid rounded shadow" alt="Combo Meal">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <img src="/images/parotta chicken.jpg" class="img-fluid rounded shadow" alt="Parotta Chicken">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <img src="/images/fish.jpg" class="img-fluid rounded shadow" alt="Fish Dish">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <img src="/images/chettichick.jpg" class="img-fluid rounded shadow" alt="Grilled Dish">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="services" class="services py-5" style="background-color: rgb(245, 242, 238);">
+    <h1 class="text-center text-dark mb-4">Our Services</h1>
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="ser1 text-center h-100">
+                    <p><span class="text-danger fw-bold">Delivery:</span> Fast and reliable delivery to your
+                        doorstep.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="ser1 text-center h-100">
+                    <p><span class="text-danger fw-bold">Takeout:</span> Convenient takeout options for on-the-go
+                        dining.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="ser1 text-center h-100">
+                    <p><span class="text-danger fw-bold">Catering:</span> Customized catering for events &
+                        gatherings.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="ser1 text-center h-100">
+                    <p><span class="text-danger fw-bold">Online Ordering:</span> Hassle-free ordering at your
+                        fingertips.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="ser1 text-center h-100">
+                    <p><span class="text-danger fw-bold">Reservations:</span> Book a table for a stress-free
+                        experience.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="ser1 text-center h-100">
+                    <p><span class="text-danger fw-bold">DineIn Experience:</span> Cozy ambiance & friendly service.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="ambience py-5">
+    <h1 class="sectitle text-center text-danger">Lively Ambience</h1>
+    <div class="container d-flex justify-content-center">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 w-md-75 w-lg-50 rounded shadow"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="/images/a4.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/images/a2.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/a3.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/a4.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/a5.jpg" class="d-block w-100 rounded" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container py-5" id="menu">
+    <div class="text-center mb-4">
+        <h2>Our Menu</h2>
+        <p class="text-muted">Explore our categories and pick your favorites</p>
+    </div>
+    <div class="search-box text-center">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search dishes...">
+    </div>
+
+    <div id="menuContainer">
+        <div class="mb-5 category-section">
+            <h3 class="section-title">Starters</h3>
+            <div class="row g-4">
+                <!-- Starter Card -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/mushroom.jpg" class="card-img-top" alt="Mushroom Tikka"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Mushroom Tikka</h5>
+                            <p class="card-text">Grilled mushroom marinated with spices.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/garlicbread.webp" class="card-img-top" alt="Garlic Bread"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Garlic Bread</h5>
+                            <p class="card-text">Toasted bread with garlic and herbs.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/spring.webp" class="card-img-top" alt="Spring Rolls"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Spring Rolls</h5>
+                            <p class="card-text">Crispy veggie rolls with chili sauce.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/cornnuggets.webp" class="card-img-top" alt="Corn Nuggets"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Corn Nuggets</h5>
+                            <p class="card-text">Crispy golden corn nuggets.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/cheeseballs.avif" class="card-img-top" alt="Cheese Balls"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Cheese Balls</h5>
+                            <p class="card-text">Cheesy bites served hot & crispy.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/chiclolli.jpg" class="card-img-top" alt="Chicken Lollipop"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Chicken Lollipop</h5>
+                            <p class="card-text">Spicy fried chicken wings lollipop style.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/ffry.jpg" class="card-img-top" alt="Fish Fry"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Fish Fry</h5>
+                            <p class="card-text">Crispy fried fish with masala coating.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/tanchick.jpg" class="card-img-top" alt="Tandoori Chicken"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Tandoori Chicken</h5>
+                            <p class="card-text">Roasted chicken marinated in yogurt & spices.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/egg.jpg" class="card-img-top" alt="Egg Roast"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Egg Roast</h5>
+                            <p class="card-text">Boiled eggs tossed in spicy masala.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/grill.jpg" class="card-img-top" alt="Grill Chicken"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Grill Chicken</h5>
+                            <p class="card-text">Juicy grilled chicken with smoky flavor.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="/images/caulimanch.webp" class="card-img-top" alt="Cauliflower Manchurian"
+                            style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Cauliflower Manchurian</h5>
+                            <p class="card-text">Battered & tossed in Indo-Chinese sauce.</p>
+                            <button class="btn btn-warning mt-auto">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-5 category-section" data-category="maincourse">
+        <h3 class="section-title">Main Course</h3>
+
+        <div class="row g-4 mt-lg-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/pannerbutter.webp" class="card-img-top" alt="Paneer Butter Masala"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Paneer Butter Masala</h5>
+                        <p class="card-text">Cottage cheese cubes in creamy tomato gravy.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/chnamasala.jpg" class="card-img-top" alt="Chana Masala"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Chana Masala</h5>
+                        <p class="card-text">Spicy chickpeas cooked in traditional Indian style.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/vegkur.jpg" class="card-img-top" alt="Veg Kurma"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Veg Kurma</h5>
+                        <p class="card-text">Mixed vegetables cooked in coconut-based gravy.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/butterchick.jpg" class="card-img-top" alt="Butter Chicken"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Butter Chicken</h5>
+                        <p class="card-text">Grilled chicken simmered in buttery tomato sauce.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/eggcurry.jpg" class="card-img-top" alt="Egg Curry"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Egg Curry</h5>
+                        <p class="card-text">Boiled eggs simmered in spiced onion-tomato curry.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/chettichick.jpg" class="card-img-top" alt="Chettinadu Chicken"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Chettinadu Chicken</h5>
+                        <p class="card-text">Spicy South Indian-style chicken with roasted masalas.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/chickbiri.jpg" class="card-img-top" alt="Chicken Biryani"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Chicken Biryani</h5>
+                        <p class="card-text">Fragrant rice layered with marinated chicken and spices.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/muttonbiri.jpg" class="card-img-top" alt="Mutton Biryani"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Mutton Biryani</h5>
+                        <p class="card-text">Slow-cooked mutton in aromatic basmati rice.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/eggbiri.jpg" class="card-img-top" alt="Egg Biryani"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Egg Biryani</h5>
+                        <p class="card-text">Biryani rice infused with eggs and flavorful masala.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/vegbiri.jpg" class="card-img-top" alt="Veg Biryani"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Veg Biryani</h5>
+                        <p class="card-text">Basmati rice cooked with assorted vegetables & spices.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/vegkur.jpg" class="card-img-top" alt="Veg Kurma"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Veg Kurma</h5>
+                        <p class="card-text">Rich creamy curry with seasonal vegetables.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/paro.jpg" class="card-img-top" alt="Parotta"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Parotta</h5>
+                        <p class="card-text">Flaky layered flatbread, best paired with curry.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mb-5 category-section" data-category="juices">
+        <h3 class="section-title">Fresh Juices</h3>
+        <div class="row g-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/oj.jpg" class="card-img-top" alt="Orange Juice"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Orange Juice</h5>
+                        <p class="card-text">Freshly squeezed orange juice with a citrusy kick.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/pj.jpg" class="card-img-top" alt="Pomegranate Juice"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pomegranate Juice</h5>
+                        <p class="card-text">Refreshing juice loaded with antioxidants.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/mj.jpg" class="card-img-top" alt="Mango Juice"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Mango Juice</h5>
+                        <p class="card-text">Thick and chilled juice made from ripe mangoes.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mt-lg-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/wj.jpg" class="card-img-top" alt="Watermelon Juice"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Watermelon Juice</h5>
+                        <p class="card-text">Cool and hydrating juice perfect for summer.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/pinej.jpg" class="card-img-top" alt="Pineapple Juice"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pineapple Juice</h5>
+                        <p class="card-text">Sweet and tangy juice made from fresh pineapples.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/gj.jpg" class="card-img-top" alt="Grapes Juice"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Grapes Juice</h5>
+                        <p class="card-text">Delightfully sweet juice made from black grapes.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="mb-5 category-section" data-category="cakes">
+        <h3 class="section-title">Cakes</h3>
+
+        <div class="row g-4 mt-lg-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/chocake.jpg" class="card-img-top" alt="Chocolate Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Chocolate Cake</h5>
+                        <p class="card-text">Rich chocolate cake with smooth ganache.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/cheesecake.jpg" class="card-img-top" alt="Cheesecake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cheesecake</h5>
+                        <p class="card-text">Classic creamy New York style cheesecake.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/strawcake.jpg" class="card-img-top" alt="Strawberry Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Strawberry Cake</h5>
+                        <p class="card-text">Light sponge with fresh strawberry layers.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mt-lg-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/chocotruffle.jpg" class="card-img-top" alt="Choco Truffle"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Choco Truffle</h5>
+                        <p class="card-text">Dark and rich chocolate layered cake.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/cofcake.jpg" class="card-img-top" alt="Coffee Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Coffee Cake</h5>
+                        <p class="card-text">Moist cake infused with strong coffee flavor.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/pinecake.jpg" class="card-img-top" alt="Pineapple Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pineapple Cake</h5>
+                        <p class="card-text">Tropical delight with pineapple cream layers.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mt-lg-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/redvel.jpg" class="card-img-top" alt="Red Velvet Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Red Velvet Cake</h5>
+                        <p class="card-text">Soft red sponge layered with cream cheese.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/cupcake.jpg" class="card-img-top" alt="Cup Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cup Cake</h5>
+                        <p class="card-text">Mini cakes with whipped frosting and sprinkles.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/butterscotch.jpg" class="card-img-top" alt="Butterscotch Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Butterscotch Cake</h5>
+                        <p class="card-text">Butterscotch crunch layered with caramel cream.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mt-lg-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/whitefor.jpg" class="card-img-top" alt="White Forest Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">White Forest Cake</h5>
+                        <p class="card-text">Creamy vanilla sponge with cherry topping.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/blackfor.jpg" class="card-img-top" alt="Black Forest Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Black Forest Cake</h5>
+                        <p class="card-text">Chocolate sponge with cream and cherries.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="/images/rain.jpg" class="card-img-top" alt="Rainbow Cake"
+                        style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Rainbow Cake</h5>
+                        <p class="card-text">Colorful layers with light vanilla frosting.</p>
+                        <button class="btn btn-warning mt-auto">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="deals" class="deals container my-5">
+        <h1 class="text-center">Special Offers</h1>
+        <div id="flexCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- First Slide -->
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="d-flex justify-content-center flex-wrap gap-3">
+                        <!-- Card 1 -->
+                        <div class="card deal-card">
+                            <img src="images/offer1.webp" class="card-img-top deal-img" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">20% Off<br> Use Coupon: AS54</h5>
+                                <p class="card-text">On All Starters</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card deal-card">
+                            <img src="images/frenchfries.jpg" class="card-img-top deal-img" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Buy 1 Get 1 <br>Every Wednesday</h5>
+                                <p class="card-text">French Fries</p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="card deal-card">
+                            <img src="images/biriyani.jpg" class="card-img-top deal-img" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Buy 1 Get 1 <br> Use Coupon: AS54</h5>
+                                <p class="card-text">Biriyani</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Slide -->
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="d-flex justify-content-center flex-wrap gap-3">
+                        <div class="card deal-card">
+                            <img src="images/offer3.avif" class="card-img-top deal-img" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Free Dessert <br> On Weekends</h5>
+                                <p class="card-text">On orders above ₹500</p>
+                            </div>
+                        </div>
+                        <div class="card deal-card">
+                            <img src="images/blackfor.jpg" class="card-img-top deal-img" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Buy 5 Get 1 Free <br>On Mondays</h5>
+                                <p class="card-text">BlackForest Cake</p>
+                            </div>
+                        </div>
+                        <div class="card deal-card">
+                            <img src="images/butterscotch.jpg" class="card-img-top deal-img" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Buy 1 Get 1 <br> Every Tuesday</h5>
+                                <p class="card-text">Butterscotch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="contact" class="contact mt-lg-5">
+        <h1 class="text-center text-dark">Contact</h1>
+        <div class="container contact-container">
+            <div class="row">
+
+                <div class="col-md-5 mb-4">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><strong>Address:</strong> 123 Flavor Street, Chennai, India</p>
+                        <p><strong>Phone:</strong> +91 9363316286</p>
+                        <p><strong>Email:</strong> hello@dineindelights.com</p>
+                        <p><strong>Working Hours:</strong> 10:00 AM – 10:00 PM (Mon – Sun)</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                    required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                    required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Write your message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="text-light pt-5 pb-3" style="background-color: #222;">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Brand & Description -->
+                <div class="col-md-12 mb-4">
+                    <h4 class="text-warning">DineIn <span class="text-white">Delights</span></h4>
+                    <p>Where every bite creates a memory. Enjoy delicious meals with friends, family, or your special
+                        someone in a cozy, vibrant setting.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 mb-4">
+                    <h5 class="text-warning">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+                        <li><a href="#menu" class="text-white text-decoration-none">Menu</a></li>
+                        <li><a href="#offers" class="text-white text-decoration-none">Offers</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-warning">Contact</h5>
+                    <p class="mb-1"><i class="bi bi-telephone-fill"></i> +91 93633 16286</p>
+                    <p class="mb-1"><i class="bi bi-envelope-fill"></i> support@dineindelights.com</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> 123 Food Street, Chennai, India</p>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-warning">Follow Us</h5>
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                </div>
+
+            </div>
+
+            <hr style="border-color: rgba(255,255,255,0.1);">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 <span class="text-warning">DineIn Delights</span>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
